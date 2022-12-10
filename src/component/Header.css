@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-decoration: none;
+z-index: 10000000;
+}
+
+.logo {
+    padding: 10px 15px;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color: #333;
+
+}
+
+.link {
+    margin-left: auto;
+}
+
+.ul {
+    display: flex;
+}
+
+
+.ul li {
+    list-style: none;
+    margin: 0 10px;
+    outline: none;
+    text-decoration: none;
+}
+
+.active {
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    padding: 20px 15px;
+    display: block;
+    text-decoration: none;
+}    
+    .button
+    {
+        border: none;
+        background-color: rgb(153, 153, 153);
+        color: #fff;
+        padding: 10px ;
+        margin: 12px 0;
+        cursor: pointer;;
+;    }
